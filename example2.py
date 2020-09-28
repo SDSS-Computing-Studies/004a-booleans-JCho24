@@ -30,7 +30,7 @@ print("=============================")
 print(" Ex2: If else statement      ")
 print("=============================")
 a = 10
-b = 5
+b = 7
 value = a==b
 print(value)
 if value:
@@ -51,7 +51,7 @@ print("=============================")
 print("     Ex2: If statement       ")
 print("=============================")
 a = 10
-b = 5
+b = 7
 if a == b:
   print("The if statement is executed because")
   print("the condition is true")

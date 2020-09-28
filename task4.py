@@ -9,3 +9,12 @@
 # Outputs:
 # "the sentence contains password"
 # "the sentence does not contain password"
+
+print("Enter a sentence")
+a = input()
+a = str(a)
+
+if "password" in a:
+    print("the sentence contains password")
+else:
+    print("the sentence does not contain password")
