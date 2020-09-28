@@ -12,3 +12,16 @@
 # - "that is a right triangle"
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
+
+print("Enter a value for side a")
+a = input()
+a = float(a)
+
+print("Enter a value for side b")
+b = input()
+b = float(b)
+
+print("Enter a value for side c")
+c = input()
+c = float(c)
+
