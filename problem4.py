@@ -13,6 +13,7 @@
 # - "that is an acute triangle"
 # - "that is an obtuse triangle"
 
+import math
 print("Enter a value for side a")
 a = input()
 a = float(a)
@@ -21,7 +22,27 @@ print("Enter a value for side b")
 b = input()
 b = float(b)
 
-print("Enter a value for side c")
+print("Enter a value for the hypotenuse")
 c = input()
 c = float(c)
 
+x = a**2
+y = b**2
+z = c**2
+
+w = x + y
+
+d = math.sqrt(x + y)
+e = d * 0.02
+f = d
+d = d + e
+f = d - e
+
+if c >= f <= d:
+  print("that is a right triangle")
+
+elif w > z:
+  print("that is an acute triangle")
+  
+elif w < z:
+  print("that is an obtuse triangle")
