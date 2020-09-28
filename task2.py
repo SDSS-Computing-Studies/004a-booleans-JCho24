@@ -20,4 +20,8 @@ if a > 0:
 elif a == 0:
     print("zero")
 else:
+<<<<<<< HEAD
     print("negative")
+=======
+    print("negative")
+>>>>>>> 9e056fb9eb43064b0b1ad74afa292f7d1614936e

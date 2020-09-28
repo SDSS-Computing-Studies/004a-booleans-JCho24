@@ -1,4 +1,5 @@
 #! python3
+#! python3
 
 # Have the user input a number. 
 # Determine if the number is larger than 100 
@@ -21,4 +22,7 @@ elif a == 100:
     print("The number is 100")
 else:
     print("The number is smaller than 100")
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9e056fb9eb43064b0b1ad74afa292f7d1614936e
