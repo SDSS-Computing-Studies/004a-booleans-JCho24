@@ -31,5 +31,5 @@ if d == 0:
     print("the equation can be factored")
 elif ((d**d)%d)==0:
     print("the equation can be factored")
-else:
+else :
     print("the equation can not be factored")
