@@ -25,7 +25,7 @@ b = float(b)
 c = input("Enter a value for c: ")
 c = float(c)
 
-if (b**2 - (4 * a * c)) < 0:
+if (b**2 - (4 * a * c)) > 0:
     print("the equation can be factored")
 else :
     print("the equation can not be factored")
