@@ -20,7 +20,6 @@ a = float(a)
 b = input("Enter a value for the side b: ").split()
 b = float(b)
 
-
 c = input("Enter a value for the side c: ").split()
 c = float(c)
 
