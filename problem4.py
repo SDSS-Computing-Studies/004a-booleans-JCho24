@@ -40,7 +40,7 @@ if c >= f <= d:
   print("that is a right triangle")
 
 elif w > z:
-  print("that is an acute triangle")
+  print("that is an obtuse triangle")
   
 elif w < z:
-  print("that is an obtuse triangle")
+  print("that is an acute triangle")
