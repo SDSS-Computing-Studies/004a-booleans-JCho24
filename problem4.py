@@ -14,14 +14,14 @@
 # - "that is an obtuse triangle"
 
 import math
-a = input("Enter a value for the side a: ")
+a = input("Enter a value for the side a: ").split()
 a = float(a)
 
-b = input("Enter a value for the side b: ")
+b = input("Enter a value for the side b: ").split()
 b = float(b)
 
 
-c = input("Enter a value for the side c: ")
+c = input("Enter a value for the side c: ").split()
 c = float(c)
 
 x = a**2
